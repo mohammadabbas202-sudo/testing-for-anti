@@ -35,7 +35,7 @@ export function Footer({ onRequestAssessment }: FooterProps) {
         viewport={{ once: true, margin: '-100px' }}
         variants={containerVariants}
       >
-        <div className="max-w-4xl mx-auto px-6 text-center">
+        <div className="max-w-4xl mx-auto px-6 flex flex-col items-center text-center">
           <motion.div
             variants={itemVariants}
             className="inline-flex items-center gap-2 px-4 py-2 bg-solar-amber/10 border border-solar-amber/20 rounded-full mb-8 animate-pulse shadow-[0_0_15px_rgba(245,158,11,0.1)]"
@@ -63,8 +63,7 @@ export function Footer({ onRequestAssessment }: FooterProps) {
             <div className="absolute inset-0 bg-solar-amber/20 blur-[60px] rounded-full scale-150 animate-pulse pointer-events-none" />
             
             <button
-              onClick={onRequestAssessment}
-              className="relative inline-flex items-center gap-3 px-12 py-6 solar-gradient text-slate-900 font-bold rounded-xl hover:shadow-[0_0_30px_rgba(245,158,11,0.4)] hover:scale-105 transition-all duration-500 text-lg group overflow-hidden"
+              className="relative inline-flex items-center gap-3 px-12 py-6 solar-gradient text-slate-900 font-bold rounded-xl hover:shadow-[0_0_30px_rgba(245,158,11,0.4)] hover:scale-105 transition-all duration-500 text-lg group overflow-hidden cursor-default"
             >
               <span className="relative z-10 flex items-center gap-2">
                 Request Your Solar Assessment

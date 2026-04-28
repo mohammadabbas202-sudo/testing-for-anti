@@ -163,12 +163,7 @@ export function Hero({ onGetYourDesign }: HeroProps) {
           />
           <div className="relative w-full sm:w-auto">
             <button
-              onClick={() => {
-                if (zipCode.trim()) {
-                  onGetYourDesign(zipCode);
-                }
-              }}
-              className="w-full relative px-8 py-4 solar-gradient text-slate-900 font-semibold rounded-lg hover:shadow-lg hover:shadow-solar-amber/30 transition-all duration-300 flex items-center justify-center gap-2 whitespace-nowrap group"
+              className="w-full relative px-8 py-4 solar-gradient text-slate-900 font-semibold rounded-lg hover:shadow-lg hover:shadow-solar-amber/30 transition-all duration-300 flex items-center justify-center gap-2 whitespace-nowrap group cursor-default"
             >
               Get Your Design
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />

@@ -62,8 +62,7 @@ export function Header({ onCheckEligibilityClick }: HeaderProps) {
 
           <div className="flex items-center gap-4 relative z-50">
             <button
-              onClick={onCheckEligibilityClick}
-              className="hidden sm:block px-6 py-2 solar-gradient text-slate-900 text-sm font-semibold rounded-lg hover:shadow-md hover:shadow-solar-amber/20 transition-all duration-300"
+              className="hidden sm:block px-6 py-2 solar-gradient text-slate-900 text-sm font-semibold rounded-lg hover:shadow-md hover:shadow-solar-amber/20 transition-all duration-300 cursor-default"
             >
               Check Eligibility
             </button>

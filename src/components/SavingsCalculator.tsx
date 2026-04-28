@@ -198,8 +198,7 @@ export function SavingsCalculator({ onGetEstimate }: SavingsCalculatorProps) {
             </div>
 
             <button
-              onClick={onGetEstimate}
-              className="mt-8 w-full solar-gradient text-slate-900 py-4 rounded-xl font-bold hover:shadow-xl hover:shadow-solar-amber/20 transition-all duration-300 flex items-center justify-center gap-2 group relative overflow-hidden"
+              className="mt-8 w-full solar-gradient text-slate-900 py-4 rounded-xl font-bold hover:shadow-xl hover:shadow-solar-amber/20 transition-all duration-300 flex items-center justify-center gap-2 group relative overflow-hidden cursor-default"
             >
               <span className="relative z-10 flex items-center gap-2">
                 Get Your Personalized Estimate
